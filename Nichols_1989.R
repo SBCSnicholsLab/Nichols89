@@ -16,7 +16,7 @@ shallow2<-c(250,100,100,75,75,75,50,75,75,75,100,100,250)
 initialise<-function(gradient=steep3){
         
         ##abundance (density) matrix
-        abu<-matrix(c(0,steep2,0), 15,20)
+        abu<-matrix(c(0,gradient,0), 15,20)
         abu[,1]<-0
         abu[,20]<-0
 #        abu
